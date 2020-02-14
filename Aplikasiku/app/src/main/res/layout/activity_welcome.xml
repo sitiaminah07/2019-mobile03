@@ -48,7 +48,7 @@
         android:id="@+id/background_satu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="65dp"
         android:scaleType="fitXY"
         android:src="@drawable/bg_red"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -66,6 +66,7 @@
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:text="Login"
+		android:onClick="clickLogin"
 		android:textSize="18sp"
 		android:fontFamily="@font/montserrat_light"
 		/>
